@@ -1,0 +1,36 @@
+{
+  "name": "mogo",
+  "version": "0.0.1",
+  "description": "A Squiz Boilerplate design cutup",
+  "authors": [
+    "&lt;name&gt;@squiz.net"
+  ],
+  "private": true,
+  "scripts": {
+    "upload": "./scripts/upload.sh"
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.x",
+    "cacheable-fs": "git://github.com/ironikart/cacheable-fs.git",
+    "chalk": "^1.1.1",
+    "del": "^1.2.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-compile-handlebars": "^0.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-squiz-boilerplate": "git+ssh://git@gitlab.squiz.net:boilerplate/gulp-squiz-boilerplate.git",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "handlebars": "*",
+    "lodash": "^3.9.3",
+    "lodash.defaults": "^3.1.1",
+    "minimist": "^1.1.1",
+    "require-dir": "^0.3.0",
+    "through2": "^0.6.5"
+  },
+  "engines": {
+    "node": ">=4.x"
+  }
+}

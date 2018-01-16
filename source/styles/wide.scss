@@ -1,0 +1,1432 @@
+
+/*
+--------------------
+Modules
+--------------------
+*/
+/**
+ * version: {{version}}
+ * file:    {{file}}
+ * author:  Squiz Australia
+ *
+ * Table of Contents
+ *
+ * Modules
+{{toc}}
+ */
+/*
+--------------------
+Box shadow
+--------------------
+*/
+/*
+--------------------
+Greyscale images
+--------------------
+*/
+/*
+--------------------
+Modules
+--------------------
+*/
+.test {
+    color: black;
+}
+
+body {
+    left: 0 !important;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.tablet-button {
+    display: none;
+}
+
+/*
+--------------------
+Grid styles
+--------------------
+*/
+.grid-1 {
+    display: inline;
+    float: left;
+    width: 6.25%;
+    margin: 0 1.04167%;
+    *width: 6.24995%;
+    *margin: 0 1.04162%;
+}
+
+.grid-2 {
+    display: inline;
+    float: left;
+    width: 14.58333%;
+    margin: 0 1.04167%;
+    *width: 14.58328%;
+    *margin: 0 1.04162%;
+}
+
+.grid-3 {
+    display: inline;
+    float: left;
+    width: 22.91667%;
+    margin: 0 1.04167%;
+    *width: 22.91662%;
+    *margin: 0 1.04162%;
+}
+
+.grid-4 {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.04167%;
+    *width: 31.24995%;
+    *margin: 0 1.04162%;
+}
+
+.grid-5 {
+    display: inline;
+    float: left;
+    width: 39.58333%;
+    margin: 0 1.04167%;
+    *width: 39.58328%;
+    *margin: 0 1.04162%;
+}
+
+.grid-6 {
+    display: inline;
+    float: left;
+    width: 47.91667%;
+    margin: 0 1.04167%;
+    *width: 47.91662%;
+    *margin: 0 1.04162%;
+}
+
+.grid-7 {
+    display: inline;
+    float: left;
+    width: 56.25%;
+    margin: 0 1.04167%;
+    *width: 56.24995%;
+    *margin: 0 1.04162%;
+}
+
+.grid-8 {
+    display: inline;
+    float: left;
+    width: 64.58333%;
+    margin: 0 1.04167%;
+    *width: 64.58328%;
+    *margin: 0 1.04162%;
+}
+
+.grid-9 {
+    display: inline;
+    float: left;
+    width: 72.91667%;
+    margin: 0 1.04167%;
+    *width: 72.91662%;
+    *margin: 0 1.04162%;
+}
+
+.grid-10 {
+    display: inline;
+    float: left;
+    width: 81.25%;
+    margin: 0 1.04167%;
+    *width: 81.24995%;
+    *margin: 0 1.04162%;
+}
+
+.grid-11 {
+    display: inline;
+    float: left;
+    width: 89.58333%;
+    margin: 0 1.04167%;
+    *width: 89.58328%;
+    *margin: 0 1.04162%;
+}
+
+.grid-12 {
+    display: inline;
+    float: left;
+    width: 97.91667%;
+    margin: 0 1.04167%;
+    *width: 97.91662%;
+    *margin: 0 1.04162%;
+}
+
+.push-1 {
+    margin-left: 9.375%;
+}
+
+.push-2 {
+    margin-left: 17.70833%;
+}
+
+.push-3 {
+    margin-left: 26.04167%;
+}
+
+.push-4 {
+    margin-left: 34.375%;
+}
+
+.push-5 {
+    margin-left: 42.70833%;
+}
+
+.push-6 {
+    margin-left: 51.04167%;
+}
+
+.push-7 {
+    margin-left: 59.375%;
+}
+
+.push-8 {
+    margin-left: 67.70833%;
+}
+
+.push-9 {
+    margin-left: 76.04167%;
+}
+
+.push-10 {
+    margin-left: 84.375%;
+}
+
+.push-11 {
+    margin-left: 92.70833%;
+}
+
+.push-12 {
+    margin-left: 101.04167%;
+}
+
+.pull-1 {
+    margin-right: 9.375%;
+}
+
+.pull-2 {
+    margin-right: 17.70833%;
+}
+
+.pull-3 {
+    margin-right: 26.04167%;
+}
+
+.pull-4 {
+    margin-right: 34.375%;
+}
+
+.pull-5 {
+    margin-right: 42.70833%;
+}
+
+.pull-6 {
+    margin-right: 51.04167%;
+}
+
+.pull-7 {
+    margin-right: 59.375%;
+}
+
+.pull-8 {
+    margin-right: 67.70833%;
+}
+
+.pull-9 {
+    margin-right: 76.04167%;
+}
+
+.pull-10 {
+    margin-right: 84.375%;
+}
+
+.pull-11 {
+    margin-right: 92.70833%;
+}
+
+.pull-12 {
+    margin-right: 101.04167%;
+}
+
+.clearfix:after, .row:after {
+    clear: both;
+}
+
+.clearfix:before, .row:before, .clearfix:after, .row:after {
+    content: '';
+    display: table;
+    line-height: 0;
+}
+
+
+/* ---------- My Own styles rules ----------------------------- */
+
+.container-fluid {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* -------------- 1. Header/Navigation ------------------------ */
+
+
+header.header {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	.logo {
+			height: 23px;
+			margin-left: 0;
+		a {
+			display: block;	
+		}
+		img {
+			position: absolute;
+			margin-left: 3%;
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}	
+	}
+
+	#main-menu {
+		position: fixed;
+	    top: 40px;
+	    left: 0;
+	    z-index: 3;
+	    display: flex;
+	    align-items: center;
+	}
+
+	.menu-list {
+		list-style-type: none;
+		padding-left: 0;
+	    text-align: center;
+	    margin-top: 0;
+		li {
+			float: left;
+			padding-right: 3em;
+			padding-right: 3rem;
+			font-size: 0.88em;
+			font-size: 0.88rem;
+		}
+		li:last-child {
+			padding-right: 0;
+		}
+		li a {
+			text-decoration: none;
+			color: inherit;
+			transition: all 0.1s;
+			text-transform: uppercase;
+		}
+		li a:hover {
+			color: #fbde8a;
+			padding-bottom: 10px;
+			border-bottom: 3px solid #fbde8a;
+		}
+	}
+
+	.slides-wrapper {
+	    position: relative;
+	    .slides-list {
+			.slide {
+		    	width: 100%;
+		    	background-size: cover !important;
+		    	height: 60em;
+				&:first-child {
+					background: #d2d2d2 url(../styles/mysource_files/eagle.jpg) top left no-repeat;
+				}
+			button {
+		    	margin-top: 48px;
+		    	background: none;
+		    	border: 2px solid #fff;
+		    	color: #fff;
+		    	padding: 9px 30px;
+		    	font-weight: bold;
+		    	font-size: 0.88em;
+				}
+			}
+		}
+	}
+}
+
+#header-block {
+	margin-top: 147px;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 45%;
+		bottom: 0;
+		width: 10%;
+		height: 3px;
+		border-bottom: 3px solid #fff;
+	}
+	h2 {
+		font-family: 'Kaushan Script', cursive;
+		font-size: 4.5em;
+		font-weight: 300;
+		margin: 0 auto;
+	}
+	h1 {
+		font-weight: bold;
+		font-size: 9.5em;
+		margin: 0 auto;
+	}
+}
+
+.progress-bar {
+	margin-top: 503px;
+	text-align: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+	.progress-step h2 {
+		position: relative;
+		padding-top: 20px;
+		font-size: 0.88em;
+	}
+	.progress-step h2 .bold {
+		font-weight: bold;
+		font-size: 1.5em;
+
+	}
+	.progress-step h2:before, .progress-step h2:after {
+		content: '';
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	height: 2px;
+    	width: 100%;
+    	border-top: 2px solid #fff;
+	}
+	.progress-step h2:before {
+    	width: 100%;
+    	border-top: 2px solid #fff;
+	}
+	.progress-step:first-child h2:after {
+    	width: 20%;
+    	border-top: 2px solid #f38181;
+	}
+}
+
+/* -------------- 2. Story about us- section ------------------------ */
+
+#story_about_us {
+	text-align: center;
+	margin: 92px 0;
+	.header-section {
+		position: relative;
+		text-align: center;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 40%;
+			bottom: 0;
+			width: 17%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+		h6 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+		h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	.section-desc {
+			margin-top: 32px;
+			margin-bottom: 90px;
+			text-align: center;
+		p {
+			color: #999999;
+			font-family: 'Roboto', sans-serif;
+			font-size: 0.88em;
+		}
+	}
+	.images-block {
+		.img-item {
+			position: relative;
+			transition: top 0.5s, left 0.5s;
+			&:hover {
+				top: -11px;
+				left: -11px;
+				.overlay {
+					opacity: 1;
+				}
+			}
+
+			&:before {
+				content: '';
+			    position: absolute;
+			    left: 8px;
+			    top: 11px;
+			    width: 100%;
+			    height: 97%;
+			    border: 8px solid #fff;
+			    z-index: -1;
+			    transition: border-color 0.3s ease-in-out;
+			}
+			&:hover:before {
+				border-color: #95e1d3;
+			}
+			&:after {
+				content: '';
+			    position: absolute;
+			    left: 0px;
+			    top: 0px;
+			    width: 100%;
+			    height: 98%;
+			    background: none;
+			    transition: opacity 0.3s, background 0.5s ease-in-out;
+			    z-index: 0;
+			}
+			&:hover:after{
+					
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fce38a+0,f38181+100 */
+				background: #fce38a; /* Old browsers */
+				background: -moz-linear-gradient(top,  #fce38a 0%, #f38181 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #fce38a 0%,#f38181 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #fce38a 0%,#f38181 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce38a', endColorstr='#f38181',GradientType=0 ); /* IE6-9 */
+				opacity: .9;
+			}
+			.overlay {
+				position: absolute;
+			    left: 0px;
+			    top: 0px;
+			    opacity: 0;
+			    padding: 27% 38%;
+			    color: #fff;
+			    transition: opacity 1s;
+			    z-index: 3;
+			    i {
+			    	font-size: 1.5em;
+			    }
+			    h5 {
+			    	margin-top: 0;
+			    }
+			}
+		}
+	}
+}
+
+/* ------- 3. Facts - Section ------ */
+
+#facts {
+	background-color: #95e1d3;
+	.fact-item {
+		float: left;
+		width: 20%;
+		text-align: center;
+		color: #fff;
+    	border-right: 1px solid #b5eae0;
+    	padding: 100px 0;
+		h3 {
+			font-size: 4.5em;
+			margin: 0 auto;
+		}
+		h6 {
+			font-size: 0.88em;
+			font-weight: 300;
+			margin: 0 auto;
+		}
+	}
+}
+/* ------- 4. Amazing Services - Section ------- */
+#amazing_services {
+	padding: 110px 0 80px 0;
+	.header-section {
+		position: relative;
+		text-align: center;
+		margin-bottom: 40px;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 35%;
+			bottom: 0;
+			width: 25%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+			h6 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+			h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	& .content {
+		padding-top: 65px;
+		.row:first-child:after {
+		    content: '';
+		    display: table;
+		    line-height: 0;
+		    clear: both;
+		    border-bottom: 1px solid #d2d2d2;
+		    height: 1px;
+		    width: 100%;
+		    margin: 30px 0;
+		    padding-top: 30px;
+		}
+		i {
+			font-size: 2em;
+			color: #95e1d3;
+		}
+		h6 {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-weight: 500;
+			font-size: 0.88em;
+		}
+		p {
+			font-family: 'Roboto';
+			font-size: 0.94em;
+			color: #b6b6b6;
+		}
+	}
+}
+
+/* ------- 5. Feature - Section ------ */
+
+#feature {
+	background-color: #d2d2d2;
+	background-image: url(../mysource_files/feature-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 108px;
+	padding-bottom: 626px;
+	position: relative;
+	.header-section {
+		position: relative;
+		text-align: center;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 35%;
+			bottom: 0;
+			width: 25%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+			h6 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+			h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	#feature_sm {
+		position: absolute;
+		bottom: -52px;
+		left: 35%;
+		background: url(../mysource_files/feature-sm.png) top left no-repeat;
+		background-size: contain;
+		height: 626px;
+		width: 470px;
+	}
+	#feature_mobile {
+		position: absolute;
+		bottom: -104px;
+		left: 55%;
+		background: url(../mysource_files/feature-mobile.png) top left no-repeat;
+		background-size: contain;
+		height: 396px;
+		width: 206px;
+		}
+}
+
+/* -------- 6. Service - Section -----*/
+
+#service {
+	background-color: #fff;
+	padding-top: 112px;
+	padding-bottom: 120px;
+	.header-section {
+		position: relative;
+		text-align: center;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 42%;
+			bottom: 0;
+			width: 17%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+			h6 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+			h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	.section-desc {
+			margin-top: 32px;
+			margin-bottom: 70px;
+			text-align: center;
+		p {
+			color: #999999;
+			font-family: 'Roboto', sans-serif;
+			font-size: 0.88em;
+		}
+	}
+	.modal {
+		margin-bottom: 10px;
+
+		.modal-label { 
+			border: 1px solid #d2d2d2;
+			padding: 14px 30px 15px 16px;
+			i {
+				font-family: FontAwesome;
+				color: #95e1d3;
+				font-size: 1.3em;
+			}
+			span {
+				font-size: 0.88em;
+				margin-left: 12px;
+			}
+		}
+		div.modal-content {
+			padding: 4px 48px 12px 16px;
+			display:none;
+			border: 1px solid #d2d2d2;
+			border-top: none;
+			font-family: 'Roboto';
+			font-weight: 300;
+			font-size: 0.84em;
+			&::-webkit-scrollbar-track
+			{
+				-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+				border-radius: 10px;
+				background-color: #F5F5F5;
+			}
+
+			&::-webkit-scrollbar
+			{
+				width: 12px;
+				background-color: #F5F5F5;
+			}
+
+			&::-webkit-scrollbar-thumb
+			{
+				border-radius: 10px;
+				-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+				background-color: #D62929;
+			}
+			p {
+				color: #b6b6b6;
+				font-style: italic;
+			}
+		}
+		&.active div.modal-content {
+			display: block;
+		}
+	}
+}
+
+/* ------ 7. Quote - Section -------*/
+#quote {
+	background-color: #f8f8f8;
+	padding-top: 80px;
+	padding-bottom: 70px;
+	.slides-wrapper {
+		position: relative;
+		.slide-arrows {
+			position: absolute;
+			top: 25%;
+			color: #cfcfcf;
+			font-size: 3em;
+			&.slide-prev {
+				left: 22px;
+			}
+			&.slide-next {
+				right: 22px;
+			}
+		}
+		.slides-list {
+			position: relative;
+			.slide {
+				.icon {
+					text-align: center;
+					border: 3px solid #95e1d3;
+					color: #95e1d3;
+					padding: 42px 24px;
+					i {
+					font-size: 4.5em;
+					}
+				}
+				 p {
+					font-family: 'Roboto';
+					font-weight: 300;
+					font-size: 1.5em;
+					font-style: italic;
+					color: #b4b4b4;
+					margin-top: 0;
+				}
+				span {
+					font-family: 'Kaushan Script', cursive;
+					font-size: 1.5em;
+					position: relative;
+    				padding-left: 70px;
+    				&:before {
+    					content: '';
+					    position: absolute;
+					    top: 50%;
+					    left: 0;
+					    border-top: 3px solid #f38181;
+					    width: 40%;
+					    height: 3px;
+    				}
+				}
+			}
+		}
+	}
+}
+/*------ 8. Our Team - Section -----*/
+#our_team {
+	padding-top: 98px;
+	padding-bottom: 122px;
+	.header-section {
+		position: relative;
+		text-align: center;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 42%;
+			bottom: 0;
+			width: 17%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+			h6 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+			h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	.section-desc {
+			margin-top: 32px;
+			margin-bottom: 90px;
+			text-align: center;
+		p {
+			color: #999999;
+			font-family: 'Roboto', sans-serif;
+			font-size: 0.88em;
+		}
+	}
+	.gallery {
+		.img-wrapper {
+			text-align: center;
+			.img-item {
+				position: relative;
+				transition: top 0.5s, left 0.5s;
+				&:hover {
+					top: -12px;
+					left: -11px;
+					.overlay {
+						opacity: 1;
+					}
+				}
+
+				&:before {
+					content: '';
+				    position: absolute;
+				    left: 8px;
+				    top: 17px;
+				    width: 100%;
+				    height: 97%;
+				    border: 8px solid #fff;
+				    z-index: -1;
+				    transition: border-color 0.3s ease-in-out;
+				}
+				&:hover:before {
+					border-color: #95e1d3;
+				}
+				&:after {
+					content: '';
+				    position: absolute;
+				    left: 0px;
+				    top: 0px;
+				    width: 100%;
+				    height: 99%;
+				    background: none;
+				    transition: opacity 0.3s, background 0.5s ease-in-out;
+				    z-index: 0;
+				}
+				&:hover:after{
+						
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fce38a+0,f38181+100 */
+					background: #fce38a; /* Old browsers */
+					background: -moz-linear-gradient(top,  #fce38a 0%, #f38181 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(top,  #fce38a 0%,#f38181 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to bottom,  #fce38a 0%,#f38181 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce38a', endColorstr='#f38181',GradientType=0 ); /* IE6-9 */
+					opacity: .9;
+				}
+				.overlay {
+					    position: absolute;
+					    left: 0px;
+					    top: 0px;
+					    opacity: 0;
+					    padding: 54.5% 21.5%;
+					    color: #f38181;
+					    transition: opacity 1s;
+					    z-index: 3;
+				    i {
+			    	    font-size: 1.5em;
+					    padding: 16px 17px;
+					    background-color: #fce38a;
+					    float: left;
+					    border-left: 1px solid #f9bd87;
+					    transition: color 0.5s, background-color 0.5s;
+					    &:hover {
+					    	color: #fff;
+					    	background-color: #f38181;
+					    	cursor: pointer;
+					    }
+				    }
+				}
+			}
+			span {
+				font-family:'Roboto';
+				font-size: 0.94em;
+				font-weight: 300;
+				font-style: italic;
+				color: #a8a8a8;
+			}
+		}
+	}
+}
+/* ------ 9. Logos - Section ----- */
+#logos {
+	background-color: #f8f8f8;
+}
+#logos div.container-fluid {
+	background: url(../mysource_files/logos.png) center no-repeat;
+	height: 250px;
+	width: 100%;
+}
+/* ----- 10. Our Work - Section ----- */
+#work {
+	padding-top: 98px;
+	.header-section {
+		position: relative;
+		text-align: center;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 42%;
+			bottom: 0;
+			width: 17%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+			h6 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+			h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	.section-desc {
+			margin-top: 32px;
+			margin-bottom: 90px;
+			text-align: center;
+ 
+		p {
+			color: #999999;
+			font-family: 'Roboto', sans-serif;
+			font-size: 0.88em;
+		}
+	}
+	.gallery {
+		width: 100%;
+	    float: left;
+	    position: relative;
+	    min-height: 487.5px;
+	    /*line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;*/
+	    .img-wrapper {
+	    	list-style-type: none;
+	    	margin: 0;
+	    	padding: 0;
+	    	float: left;
+		    .img-item {
+				position: relative;
+				float: left;
+				width: 25%;
+				  img{
+				  	float: left;
+				  	display: inline-block;
+					margin-bottom: 0px;
+					width: 100%;
+					&:hover {
+					#work .gallery .img-wrapper .img-item .overlay {
+						opacity: 1;
+					}
+				  }
+				}
+				&:after {
+					content: '';
+				    position: absolute;
+				    left: 0px;
+				    top: 0px;
+				    width: 100%;
+				    height: 100%;
+				    background: none;
+				    transition: opacity 0.3s, background 0.5s ease-in-out;
+				    z-index: 0;
+				}
+				&:hover:after{
+						
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fce38a+0,f38181+100 */
+					background: #fce38a; /* Old browsers */
+					background: -moz-linear-gradient(top,  #fce38a 0%, #f38181 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(top,  #fce38a 0%,#f38181 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to bottom,  #fce38a 0%,#f38181 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce38a', endColorstr='#f38181',GradientType=0 ); /* IE6-9 */
+					opacity: .9;
+				}
+				.overlay {
+					    position: absolute;
+					    left: 0px;
+					    top: 0px;
+					    opacity: 0;
+					    padding: 54.5% 21.5%;
+					    color: #f38181;
+					    transition: opacity 1s;
+					    z-index: 3;
+				    i {
+			    	    font-size: 1.5em;
+					    padding: 16px 17px;
+					    background-color: #fce38a;
+					    float: left;
+					    border-left: 1px solid #f9bd87;
+					    transition: color 0.5s, background-color 0.5s;
+					    
+				    }
+				}
+		    	/*&.item-3 img {
+		    		position: absolute;
+		    	}*/
+		    	&.item-5  {
+		    		position: absolute;
+    				top: 50%;
+		    	}
+		    	&.item-6 {
+		    		position: absolute;
+		    		top: 50%;
+		    		left: 25%;
+		    	}
+		    }
+		}	
+	}	
+}
+/* ----- 11. Testimonal - Section ----- */
+#testimonal {
+	padding-top: 80px;
+	padding-bottom: 70px;
+	.slides-wrapper {
+		position: relative;
+		.slide-arrows {
+			position: absolute;
+			top: 25%;
+			color: #cfcfcf;
+			font-size: 3em;
+			&.slide-prev {
+				left: 22px;
+			}
+			&.slide-next {
+				right: 22px;
+			}
+		}
+		.slides-list {
+			position: relative;
+			.slide {
+				.icon {
+					text-align: center;
+					border: 3px solid #95e1d3;
+					color: #95e1d3;
+					padding: 42px 24px;
+					i {
+					font-size: 4.5em;
+					}
+				}
+				 p {
+					font-family: 'Roboto';
+					font-weight: 300;
+					font-size: 1.5em;
+					font-style: italic;
+					color: #b4b4b4;
+					margin-top: 0;
+				}
+				span {
+					font-family: 'Kaushan Script', cursive;
+					font-size: 1.5em;
+					position: relative;
+    				padding-left: 70px;
+    				&:before {
+    					content: '';
+					    position: absolute;
+					    top: 50%;
+					    left: 0;
+					    border-top: 3px solid #f38181;
+					    width: 30%;
+					    height: 3px;
+    				}
+				}
+			}
+		}
+	}
+}
+/* ------- 12. Happy Clients - Section ------- */
+#happy_clients {
+	padding: 110px 0;
+	background: url(../mysource_files/happy_clients_bg.jpg) center no-repeat;
+	.header-section {
+		position: relative;
+		text-align: center;
+		margin-bottom: 40px;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 42%;
+			bottom: 0;
+			width: 17%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+			h6 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+			h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	& .content {
+		padding-top: 65px;
+		padding-bottom: 124px;
+		h6 {
+			margin-top: 0;
+		}
+		span {
+				font-family:'Roboto';
+				font-size: 0.94em;
+				font-weight: 300;
+				font-style: italic;
+				color: #a8a8a8;
+		}
+		p {
+			font-size: 0.94em;
+			color: #b3b3b3;
+			padding-top: 20px;
+			position: relative;
+			&:before {
+				content: '';
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 12%;
+			    height: 3px;
+			    border-top: 2px solid #f38181;
+			    margin-bottom: 20px;
+			}
+		}
+	}
+}
+/* ----- 13. Blog - Section --- */
+
+#blog {
+	text-align: center;
+	margin: 92px 0;
+	.header-section {
+		position: relative;
+		text-align: center;
+		margin-bottom: 40px;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 42%;
+			bottom: 0;
+			width: 17%;
+			height: 3px;
+			border-bottom: 3px solid #f38181;
+		}
+		h5 {
+			font-family: 'Kaushan Script', cursive;
+			font-size: 1.5em;
+			font-weight: normal;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+		h4 {
+    		font-size: 1.9em;
+    		margin-top: 0;
+		}
+	}
+	.section-desc {
+			margin-top: 32px;
+			margin-bottom: 90px;
+			text-align: center;
+ 
+		p {
+			color: #999999;
+			font-family: 'Roboto', sans-serif;
+			font-size: 0.88em;
+		}
+	}
+	.blogs-block {
+		.blog-item {
+			text-align: left;
+			.img-item {
+				position: relative;
+				height: 238px;
+				background-size: cover;
+				&.item-1 {
+					background: url(../mysource_files/blog-1.jpg) center no-repeat;
+				}
+				&.item-2 {
+					background: url(../mysource_files/blog-2.jpg) center no-repeat;
+				}
+				&.item-3 {
+					background: url(../mysource_files/blog-3.jpg) center no-repeat;
+				}
+				.calendar-note {
+					position: absolute;
+					bottom: 10px;
+					left: -12px;
+					width: 12%;
+					height: 20%;
+					background-color: #95e1d3;
+					color: #fff;
+					text-align: center;
+					.big {
+						font-weight: bold;
+						font-size: 0.94em;
+						margin-top: 0;
+	    				margin-bottom: 0;
+					}
+					.small {
+						font-family: 'Roboto';
+						font-size: 0.625em;
+					} 
+				}
+			}
+			.content p {
+				margin-bottom: 20px;
+				color: #999999;
+			}
+			.social-media {
+				padding-top: 20px;
+				position: relative;
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 1px;
+					width: 100%;
+					border-top: 1px solid #d2d2d2;
+				}
+				i {
+					color: #95e1d3;
+					margin-right: 7px;
+					margin-left: 18px;
+					&:first-child {
+						margin-left: 0;
+					}
+				}
+				span {
+					color: #999999;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+}
+
+/* ------ 14. Map - Section ------- */
+#map {
+	background: url(../mysource_files/map.jpg) center no-repeat;
+	background-size: cover;
+	padding: 58px 0;
+	color: #f38181;
+	.location {
+		text-align: center;
+		i {
+			font-size: 3.5em;
+		}
+		h4 {
+			font-size: 1.5em;
+			margin-top: 18px;
+			position: relative;
+			&:before {
+				content: '';
+				position: absolute;
+				left: 35%;
+				bottom: -22px;
+				border-bottom: 3px solid #f38181;
+				height: 3px;
+				width: 30%
+			}
+		}
+	}	
+}
+
+/* ------ 15. Footer - Section ------*/
+footer.footer {
+	background-color: #f8f8f8;
+	padding-top: 75px;
+	.description {
+		h3 {
+			font-size: 2.875em;
+			color: #cccccc;
+			margin: 0 0 40px 0;
+		}
+		p {
+			color: #b4b4b4;
+			font-family: 'Roboto';
+			font-size: 0.94em;
+		}
+		p.main {
+			margin: 36px 0 18px 0;
+			color: inherit;
+			span.big {
+				font-weight: bold;
+			}
+		}
+		.social-media {
+			.grid-3 span {
+				font-family: 'Roboto';
+				font-style: italic;
+				color: #d2d2d2;
+				font-weight: 300;
+			}
+			i {
+				margin-right: 18px;
+				color: #95e1d3;
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+		.form {
+			margin-top: 36px;
+			input {
+				border: 1px solid #d2d2d2;
+				padding: 10px 0 10px 10px;
+				float: left;
+				border-right: none;
+				font-weight: 300;
+			}
+			button {
+				border: 1px solid #d2d2d2;
+				padding: 10px 30px;
+				background-color: #95e1d3;
+				color: #fff;
+				border-left: none;
+			}
+		}
+	}
+	h5 {
+		color: #595959;
+		margin-bottom: 40px;
+	}
+
+	.blogs {
+		.blog-item {
+			margin: 15px 0;
+			p {
+				font-size: 0.75em;
+				margin-bottom: 8px
+			}
+			span.date {
+				font-family: 'Roboto';
+				font-style: italic;
+				font-weight: 300;
+				font-size: 0.88em;
+				color: #c6c6c6;
+			}
+		}
+	}
+	.instagram {
+		a {
+			text-decoration: none;
+			color: #777777;
+		}
+	}
+	.copyright {
+		text-align: center;
+		position: relative;
+		padding-top: 20px;
+		&:before {
+			content: '';
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    height: 1px;
+		    width: 100%;
+		    border-top: 1px solid #e5e5e5;
+		    margin: 20px 0;
+		}
+		h6 {
+			font-weight: 300;
+			font-size: 0.88em;
+			span.author {
+				color: #f4a4a4;
+			}
+		}
+	}	
+}

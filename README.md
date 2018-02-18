@@ -80,4 +80,4 @@ Reference articles on Squiz Boilerplate are available at the official wiki:
 
 [Squiz Boilerplate Wiki](https://gitlab.squiz.net/boilerplate/squiz-boilerplate/wikis/home)
 
-Here you can check Demo page: https://pwiniarski-squiz.github.io/Mogo/
+Here you can check Demo page: https://pwiniarski1991.github.io/Mogo/
